@@ -87,7 +87,7 @@ public class AuthService {
         User user = userRepository.findByEmail(email).orElse(null);
 
         // Comparaison directe en clair - DANGEREUX
-        if (user == null || !user.getPassword().equals(password)) {
+        if (user == null || !user.getPasswordHash().equals(password)) {
             logger.warn("Échec connexion pour email : {}", email);
             throw new AuthenticationFailedException("Email ou mot de passe incorrect");
         }

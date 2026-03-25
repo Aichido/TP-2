@@ -87,4 +87,6 @@ public class User {
 
     public LocalDateTime getLockUntil() { return lockUntil; }
     public void setLockUntil(LocalDateTime lockUntil) { this.lockUntil = lockUntil; }
+
+
 }
