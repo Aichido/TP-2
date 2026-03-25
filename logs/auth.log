@@ -1,0 +1,68 @@
+2026-03-25T05:56:54.601+04:00  INFO 17400 --- [auth] [main] com.example.auth.AuthApplicationTests    : Starting AuthApplicationTests using Java 21.0.10 with PID 17400 (started by Tahiry in C:\Users\Tahiry\Desktop\Mon Java\TP-1)
+2026-03-25T05:56:54.618+04:00 DEBUG 17400 --- [auth] [main] com.example.auth.AuthApplicationTests    : Running with Spring Boot v3.5.11, Spring v6.2.16
+2026-03-25T05:56:54.622+04:00  INFO 17400 --- [auth] [main] com.example.auth.AuthApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-03-25T05:56:56.783+04:00  INFO 17400 --- [auth] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25T05:56:56.933+04:00  INFO 17400 --- [auth] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 125 ms. Found 1 JPA repository interface.
+2026-03-25T05:56:57.890+04:00  INFO 17400 --- [auth] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-25T05:56:58.325+04:00  INFO 17400 --- [auth] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-25T05:56:58.720+04:00  INFO 17400 --- [auth] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-25T05:56:59.691+04:00  INFO 17400 --- [auth] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25T05:56:59.799+04:00  INFO 17400 --- [auth] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-25T05:57:00.364+04:00  INFO 17400 --- [auth] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@559fd5ec
+2026-03-25T05:57:00.370+04:00  INFO 17400 --- [auth] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-25T05:57:00.743+04:00  WARN 17400 --- [auth] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-03-25T05:57:00.764+04:00  WARN 17400 --- [auth] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-25T05:57:00.831+04:00  INFO 17400 --- [auth] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-25T05:57:03.126+04:00  INFO 17400 --- [auth] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-25T05:57:03.239+04:00  INFO 17400 --- [auth] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25T05:57:04.235+04:00  WARN 17400 --- [auth] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-25T05:57:05.394+04:00  INFO 17400 --- [auth] [main] com.example.auth.AuthApplicationTests    : Started AuthApplicationTests in 11.654 seconds (process running for 14.613)
+2026-03-25T05:57:06.849+04:00  INFO 17400 --- [auth] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25T05:57:06.856+04:00  INFO 17400 --- [auth] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-25T05:57:06.893+04:00  INFO 17400 --- [auth] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-25T06:00:08.808+04:00  INFO 19848 --- [auth] [main] com.example.auth.AuthServiceTest         : Starting AuthServiceTest using Java 21.0.10 with PID 19848 (started by Tahiry in C:\Users\Tahiry\Desktop\Mon Java\TP-1)
+2026-03-25T06:00:08.811+04:00 DEBUG 19848 --- [auth] [main] com.example.auth.AuthServiceTest         : Running with Spring Boot v3.5.11, Spring v6.2.16
+2026-03-25T06:00:08.813+04:00  INFO 19848 --- [auth] [main] com.example.auth.AuthServiceTest         : No active profile set, falling back to 1 default profile: "default"
+2026-03-25T06:00:10.747+04:00  INFO 19848 --- [auth] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25T06:00:10.961+04:00  INFO 19848 --- [auth] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 186 ms. Found 1 JPA repository interface.
+2026-03-25T06:00:14.520+04:00  INFO 19848 --- [auth] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-25T06:00:15.281+04:00  INFO 19848 --- [auth] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-25T06:00:15.618+04:00  INFO 19848 --- [auth] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-25T06:00:23.107+04:00  INFO 19848 --- [auth] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25T06:00:23.233+04:00  INFO 19848 --- [auth] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-25T06:00:23.833+04:00  INFO 19848 --- [auth] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1aac0a47
+2026-03-25T06:00:23.839+04:00  INFO 19848 --- [auth] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-25T06:00:23.988+04:00  WARN 19848 --- [auth] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-03-25T06:00:24.002+04:00  WARN 19848 --- [auth] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-25T06:00:24.098+04:00  INFO 19848 --- [auth] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-25T06:00:27.741+04:00  INFO 19848 --- [auth] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-25T06:00:28.185+04:00  INFO 19848 --- [auth] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25T06:00:30.935+04:00  WARN 19848 --- [auth] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-25T06:00:33.340+04:00  INFO 19848 --- [auth] [main] com.example.auth.AuthServiceTest         : Started AuthServiceTest in 25.488 seconds (process running for 28.612)
+2026-03-25T06:00:38.613+04:00  INFO 19848 --- [auth] [main] com.example.auth.service.AuthService     : Inscription réussie pour : login@test.com
+2026-03-25T06:00:38.665+04:00  INFO 19848 --- [auth] [main] com.example.auth.service.AuthService     : Connexion réussie pour : login@test.com
+2026-03-25T06:00:38.862+04:00  INFO 19848 --- [auth] [main] com.example.auth.service.AuthService     : Inscription réussie pour : wrong@test.com
+2026-03-25T06:00:38.872+04:00  WARN 19848 --- [auth] [main] com.example.auth.service.AuthService     : Échec connexion pour email : wrong@test.com
+2026-03-25T06:00:38.922+04:00  INFO 19848 --- [auth] [main] com.example.auth.service.AuthService     : Inscription réussie pour : me@test.com
+2026-03-25T06:00:38.934+04:00  INFO 19848 --- [auth] [main] com.example.auth.service.AuthService     : Connexion réussie pour : me@test.com
+2026-03-25T06:00:39.162+04:00  INFO 19848 --- [auth] [main] com.example.auth.service.AuthService     : Inscription réussie pour : nouveau@test.com
+2026-03-25T06:00:39.279+04:00  INFO 19848 --- [auth] [main] com.example.auth.service.AuthService     : Inscription réussie pour : doublon@test.com
+2026-03-25T06:00:39.291+04:00  WARN 19848 --- [auth] [main] com.example.auth.service.AuthService     : Tentative d'inscription avec email déjà existant : doublon@test.com
+2026-03-25T06:00:39.381+04:00  WARN 19848 --- [auth] [main] com.example.auth.service.AuthService     : Échec connexion pour email : inconnu@test.com
+2026-03-25T06:00:40.214+04:00  INFO 19848 --- [auth] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25T06:00:40.279+04:00  INFO 19848 --- [auth] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-25T06:00:40.343+04:00  INFO 19848 --- [auth] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
